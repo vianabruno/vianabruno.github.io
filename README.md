@@ -1,36 +1,41 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Atenção!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campanha de Segurança da Informação</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #fffbe6;
-      text-align: center;
-      padding: 50px;
-    }
-    .alerta {
-      background-color: #ffe0e0;
-      border: 1px solid #ff0000;
-      padding: 20px;
-      display: inline-block;
-      border-radius: 8px;
-      max-width: 600px;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #222;
     }
     h1 {
-      color: #cc0000;
+      color: #00529B;
     }
     p {
-      font-size: 18px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    a {
+      color: #00529B;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="alerta">
-    <h1>⚠️ Cuidado!</h1>
-    <p>Você clicou em um link que parecia uma promoção.</p>
-    <p>Esse teste foi feito pela equipe de TI como parte de uma campanha de <strong>conscientização sobre segurança da informação</strong>.</p>
-    <p>Nunca clique em links suspeitos ou desconhecidos. Verifique sempre a fonte.</p>
-  </div>
+  <h1>Segurança da Informação</h1>
+  <p>
+    Atenção! Não clique em links suspeitos que você recebe por e-mail ou mensagens. 
+    Eles podem comprometer sua segurança e dos nossos clientes.
+  </p>
+  <p>
+    Para saber mais, <a href="https://exemplo.com/campanha" target="_blank" rel="noopener noreferrer">clique aqui</a>.
+  </p>
 </body>
 </html>
