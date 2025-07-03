@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atenção!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffbe6;
+      text-align: center;
+      padding: 50px;
+    }
+    .alerta {
+      background-color: #ffe0e0;
+      border: 1px solid #ff0000;
+      padding: 20px;
+      display: inline-block;
+      border-radius: 8px;
+      max-width: 600px;
+    }
+    h1 {
+      color: #cc0000;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="alerta">
+    <h1>⚠️ Cuidado!</h1>
+    <p>Você clicou em um link que parecia uma promoção.</p>
+    <p>Esse teste foi feito pela equipe de TI como parte de uma campanha de <strong>conscientização sobre segurança da informação</strong>.</p>
+    <p>Nunca clique em links suspeitos ou desconhecidos. Verifique sempre a fonte.</p>
+  </div>
+</body>
+</html>
